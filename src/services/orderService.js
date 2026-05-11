@@ -1,4 +1,4 @@
-﻿const getOrders = async (userId) => {
+const getOrders = async (userId) => {
   // Simula llamada al microservicio de pedidos
   return [
     { id: 'o1', userId, boxId: '1', status: 'activo', date: '2025-01-15' },

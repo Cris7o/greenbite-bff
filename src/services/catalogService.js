@@ -1,4 +1,4 @@
-﻿const axios = require('axios');
+const axios = require('axios');
 
 const getCatalog = async () => {
   // Simula llamada al microservicio de catálogo
