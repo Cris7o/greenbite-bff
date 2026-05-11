@@ -18,18 +18,12 @@ npm test
 ```
 
 ## Estructura del proyecto
-greenbite-bff/
-├── tests/
-│   └── bff.test.js
-├── src/
-│   ├── routes/
-│   │   └── bff.js
-│   ├── services/
-│   │   ├── catalogService.js
-│   │   └── orderService.js
-│   └── index.js
-├── package.json
-└── README.md
+
+- `__tests__/` — pruebas unitarias
+- `src/routes/` — endpoints REST
+- `src/services/` — lógica de negocio
+- `src/index.js` — entrada de la aplicación
+- `package.json` — dependencias y scripts
 
 ## Endpoints
 
